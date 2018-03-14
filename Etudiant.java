@@ -18,3 +18,25 @@ public class Etudiant{
 		this.prenomEtudiant=prenom;
 		
 	}
+	
+	//Getters et setters
+	
+	public String getNomEtudiant(){
+		
+		return this.nomEtudiant;
+	}
+	
+	public String getPrenomEtudiant(){
+		
+		return this.prenomEtudiant;
+	}
+	
+	
+	public void setNomEtudiant(String nom){
+		this.nomEtudiant=nom;
+	}
+	
+	public void setPrenomEtudiant(String prenom){
+		this.prenomEtudiant=prenom;
+	}
+	
