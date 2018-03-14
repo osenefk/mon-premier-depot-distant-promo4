@@ -7,6 +7,8 @@ public class Etudiant{
 	
 	private String emailEtudiant;
 	
+	private String telEtudiant;
+	
 	//Constructeurs
 	
 	public Etudiant(){
