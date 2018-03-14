@@ -1,6 +1,7 @@
 public class Employe{
 
 //Proprietes
+
 	private String nomEmploye;
 	private String prenomEmploye;
 	
@@ -16,6 +17,27 @@ public class Employe{
 		
 		this.prenomEmploye=prenom;
 		
+	}
+	
+	//Getters et setters
+	
+	public String getNomEmploye(){
+		
+		return this.nomEmpoye;
+	}
+	
+	public String getPrenomEmploye(){
+		
+		return this.prenomEmpoye;
+	}
+	
+	
+	public void setNomEmploye(String nom){
+		this.nomEmploye=nom;
+	}
+	
+	public void setPrenomEmploye(String prenom){
+		this.prenomEmploye=prenom;
 	}
 	
 	
