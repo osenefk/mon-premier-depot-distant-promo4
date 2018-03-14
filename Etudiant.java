@@ -5,6 +5,8 @@ public class Etudiant{
 	private String nomEtudiant;
 	private String prenomEtudiant;
 	
+	private String emailEtudiant;
+	
 	//Constructeurs
 	
 	public Etudiant(){
