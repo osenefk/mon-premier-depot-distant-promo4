@@ -48,7 +48,13 @@ public class Employe{
 		this.prenomEmploye=prenom;
 	}
 	
+	//Methodes
 	
+	public void affiche(){
+		
+		System.out.println(this.nomEmploye +  ", "  + this.prenomEmploye);
+		
+	}
 	
 	
 	
