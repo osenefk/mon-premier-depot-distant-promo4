@@ -49,6 +49,15 @@ public class Employe{
 	}
 	
 	
+	//Ajout de methode metier
+	
+	public void afficherInfo(){
+		
+		System.out.println(this.nomEmploye + "" + this.prenomEmploye);
+		
+	}
+		
+	
 	
 	
 	
