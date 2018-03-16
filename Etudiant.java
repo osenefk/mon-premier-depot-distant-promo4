@@ -44,3 +44,11 @@ public class Etudiant{
 		this.prenomEtudiant=prenom;
 	}
 	
+	//Methodes
+	
+	public void affiche(){
+		
+		System.out.println(this.nomEtudiant +  ", "  + this.prenomEtudiant);
+		
+	}
+	
