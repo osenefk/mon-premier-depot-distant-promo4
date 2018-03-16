@@ -19,6 +19,14 @@ public class Employe{
 		
 	}
 	
+	public Employe(String nom){
+		
+		this.nomEmploye=nom;
+		
+	}
+	
+	
+	
 	//Getters et setters
 	
 	public String getNomEmploye(){
